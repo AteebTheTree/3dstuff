@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component"></script>
+</head>
+
+<body>
+    <a-scene background="color:black" environment="preset:forest">
+        <a-entity camera position="0 1.5 0" wasd-controls look-controls></a-entity>
+        <a-entity id="world"></a-entity>
+        <a-box position="-5 1 -5"></a-box>
+        <a-ring position="-10 1.5 -5" ></a-ring>
+        <a-tetrahedron position = "0 1.5 -5"></a-tetrahedron>
+    </a-scene>
+</body>
